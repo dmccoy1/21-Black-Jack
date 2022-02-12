@@ -1,0 +1,28 @@
+{
+  "name": "21-blackjack",
+  "version": "1.0.0",
+  "description": "21 Blackjack game made using JavaScript.",
+  "main": "21blackjack.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmccoy1/21-Black-Jack---Javascript-.git"
+  },
+  "keywords": [
+    "fun",
+    "game",
+    "card",
+    "blackjack"
+  ],
+  "author": "Darius M.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmccoy1/21-Black-Jack---Javascript-/issues"
+  },
+  "homepage": "https://github.com/dmccoy1/21-Black-Jack---Javascript-#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

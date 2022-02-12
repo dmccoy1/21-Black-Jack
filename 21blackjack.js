@@ -1,11 +1,12 @@
-const prompt = require("prompt-sync")();
+const prompt = require("prompt-sync")(); //needed to take input from the console. 
+
 class Deck {
     constructor() {
         this.suits = ["Diamonds", "Clubs", "Hearts", "Spades"]
         this.ranks = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"]
     }
 
-    makeDeck() {
+    makeDeck() {//Loop combines a rank to each suit 
         let deck = [];
         for (let i = 0; i < this.suits.length; i++) {
             for (let rank = 0; rank < this.ranks.length; rank++) {
@@ -35,7 +36,7 @@ class Player {
         this.score = 0
         this.hitOrStay = "y"
     }
-    bet() {
+    bet() {//a little input validation!
         this.wager = Number(prompt(`How much do you want to bet? You currently have $${this.money} in your bank `))
         while (true) {
             if (isNaN(this.wager)) {
@@ -61,7 +62,7 @@ class Player {
             hand.push(card)
         }
     }
-    openhand() {
+    openhand() {//player is drawn 2 cards at the start of each round
         this.drawCard(2)
     }
     hit() {
@@ -101,7 +102,7 @@ class Player {
         console.log("The player's score is: " + this.score)
     }
 
-    addCardValue(card) {
+    addCardValue(card) {//score is calculated - Ace is either a 1 or 11 based on score when drawn 
         let cardRank = card.split(" ")[0]
         if (parseInt(cardRank) <= 10) {
             this.score += parseInt(cardRank)
@@ -134,7 +135,7 @@ class Dealer {
         console.log("Dealer draws a card...")
         this.drawCard(1)
     }
-    openhand() {
+    openhand() {//the dealer is drawn two cards but the top card is only reavled below
         this.drawCard(2)
     }
 
@@ -204,7 +205,7 @@ function playGame() {
     // Create deck of cards
     // Create player & dealer
     while (player.playAgain = true) {
-        while (player.money > 0) {
+        while (player.money > 0) {//game will run aslong as player has money 
             // Player needs to bet
             player.bet()
             // Deal the cards
