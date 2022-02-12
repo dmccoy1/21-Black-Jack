@@ -1,16 +1,43 @@
 # Jack Black's 21 Blackjack
-![alt text](https://nj-blocks.bettingexpert.com/wp-content/uploads/2019/12/shutterstock_31136425.jpg "Jack Black playing Blackjack")
-## About The Project
+![alt text](https://nj-blocks.bettingexpert.com/wp-content/uploads/2019/12/shutterstock_31136425.jpg "Blackjack")
+
+### Introduction
+
+This is a project completed apart of bootcamp provided by Betamore with Mastermnd. The project instructed us to make a Jack Black themed Blackjack game using JavaScript.
+
+### Game Critrea
+
+- [ ] We need to have a deck, which contains 52 cards
+- [ ] The deck needs to be shuffled 
+- [ ] Cards need to be dealt from the deck
+- [ ] The players need to be able to have a hand of dealt cards
+- [ ] The players need to have some moola, cash, DINERO
+- [ ] The player needs to be able to bet moola 
+- [ ] When the player wins, moola needs to be added to their bankroll
+- [ ] When the player loses, moola needs to be removed from theit bankrol
+- [ ] We need to implement all of the logic of "21 or Bust" aka blackjack
+
+### Getting Started
+ To get a local copy up and running follow these simple example steps.
+
+### Clone it!
+Clone this repo:
+
+```git clone https://github.com/dmccoy1/21-Black-Jack---Javascript-.git```
+
+### Prerequisites
+
+The [prompt-sync](https://github.com/heapwolf/prompt-sync) module is needed to properly run the game. We use this module to enter input to the game from the console. I included this module as a dependency in the package.json file.
+
+To Install, navigate to this clone directory and type into the command line:
 
 
+```npm install ```
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+### Play
 
-Here's why:
+Type ```node 21blackjack.js``` into the command line while you're still present in the clone directory.
 
-Your time should be focused on creating something amazing. A project that solves a problem and helps others
-You shouldn't be doing the same tasks over and over like creating a README from scratch
-You should implement DRY principles to the rest of your life :smile:
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+![](https://images.radio.com/aiu-media/JackBlack775x515-22de2ba1-576d-40a6-a416-ebc72ac75ec6.jpg)
 
-Use the BLANK_README.md to get started.
+### What I learned?
