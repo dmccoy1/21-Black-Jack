@@ -32,12 +32,14 @@ The [prompt-sync](https://github.com/heapwolf/prompt-sync) module is needed to p
 To Install, navigate to this clone directory and type into the command line:
 
 
-```npm install ```
+```npm install``` or ```npm i```
 
 ### Play
 
-Type ```node 21blackjack.js``` into the command line while you're still present in the clone directory.
+Type ```node 21blackjack.js``` into the command line while you're still present in the clone directory. Do you have what it takes to beat Jack Black? 💥
 
 ![](https://images.radio.com/aiu-media/JackBlack775x515-22de2ba1-576d-40a6-a416-ebc72ac75ec6.jpg)
 
-### What I learned?
+### Needed Updates 
+- [ ] Fix some bugs
+- [ ] Improve game logic 
